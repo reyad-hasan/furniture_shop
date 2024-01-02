@@ -6,6 +6,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   font-family: "Roboto", sans-serif;
+  background-color: #fefbf7;
 }
 :root {
   --primaryColor: #a38062;
@@ -209,4 +210,27 @@ body {
   position: relative;
   top: -180%;
   right: -45%;
+}
+/* product link section style */
+.product_link_section {
+  text-align: center;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.product_link_section p {
+  color: var(--secondaryColor);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 5px;
+  letter-spacing: 1px;
+}
+.product_box {
+  cursor: pointer;
+  transition: 0.5s;
+}
+.product_box:hover {
+  transform: scale(1.1);
 }
