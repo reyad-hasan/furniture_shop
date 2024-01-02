@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+:root {
+  --primaryColor: #a38062;
+  --secondaryColor: #333;
+  --defaultWhite: white;
+}
+/* share style */
+.shareNav ul {
+  display: flex;
+  align-items: center;
+}
+.shareNav ul li {
+  list-style: none;
+}
+.shareNav ul li a {
+  text-decoration: none;
+  color: var(--defaultWhite);
+  font-size: 16px;
+  margin-right: 30px;
+  transition: 0.5s;
+}
+.shareNav ul li a:hover {
+  color: var(--secondaryColor);
+}
+.shareBtn {
+  background-color: transparent;
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: 1px solid var(--defaultWhite);
+  font-size: 16px;
+  transition: 0.5s;
+  cursor: pointer;
+  color: var(--defaultWhite);
+}
+.shareBtn:hover {
+  background-color: var(--primaryColor);
+  border: 1px solid var(--primaryColor);
+  padding: 10px 30px;
+  border-radius: 30px;
+}
+/* header style */
+/* navbar and banner container */
+.navbar_and_banner_container {
+  background-image: url(../img/home-interior-with-armchair-decor-white-color-living-room-3d-rendering1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+}
+/* navbar container */
+.navbar_container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 90px 30px 90px;
+  background-image: linear-gradient(
+    180deg,
+    #55514e 0%,
+    rgba(217, 217, 217, 0) 100%
+  );
+}
+/* navbar left contend */
+.navbar_left_contend {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+.logo {
+  text-decoration: none;
+  color: var(--defaultWhite);
+  letter-spacing: 3px;
+  font-size: 20px;
+}
+/* navbar right contend */
+.navbar_right_contend {
+  width: 50%;
+  display: flex;
+  justify-content: right;
+}
+.navbar_right_contend i {
+  font-size: 16px;
+  margin-left: 4px;
+}
