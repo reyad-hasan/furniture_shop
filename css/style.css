@@ -73,6 +73,9 @@ body {
   text-transform: capitalize;
   padding: 20px 0px;
 }
+.padding_section {
+  padding: 0px 180px;
+}
 /* header style */
 /* navbar and banner container */
 .navbar_and_banner_container {
@@ -157,10 +160,53 @@ body {
   font-size: 14px;
   font-weight: 300;
   text-transform: capitalize;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
 }
 .modern_name {
   font-family: Montserrat;
   font-size: 24px;
   font-weight: 600;
   text-transform: capitalize;
+  letter-spacing: 1px;
+}
+/* new age furniture style */
+.new_age_furniture_section {
+  display: flex;
+  margin-top: 100px;
+}
+.new_age_left_contend {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+.new_age_right_contend {
+  width: 60%;
+  height: 600px;
+}
+.new_age_img1 {
+  position: relative;
+  top: 30%;
+  left: -10%;
+}
+.new_age_img2 {
+  position: relative;
+  left: -25%;
+  top: 0%;
+}
+.new_age_img3 {
+  position: relative;
+  top: -127%;
+  right: -40%;
+}
+.new_age_img4 {
+  position: relative;
+  top: -150%;
+  right: 7%;
+  transform: rotate(-15deg);
+}
+.new_age_img5 {
+  position: relative;
+  top: -180%;
+  right: -45%;
 }
