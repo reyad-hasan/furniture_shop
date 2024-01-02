@@ -46,6 +46,33 @@ body {
   padding: 10px 30px;
   border-radius: 30px;
 }
+.exploreBtn {
+  border: 1px solid var(--primaryColor);
+  color: var(--primaryColor);
+  padding: 10px 50px;
+}
+.exploreBtn:hover {
+  color: var(--defaultWhite);
+  padding: 10px 50px;
+  background-color: var(--primaryColor);
+}
+.title {
+  color: var(--primaryColor);
+  font-family: Montserrat;
+  font-size: 55px;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.description {
+  color: var(--secondaryColor);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 25px; /* 150% */
+  text-transform: capitalize;
+  padding: 20px 0px;
+}
 /* header style */
 /* navbar and banner container */
 .navbar_and_banner_container {
@@ -89,4 +116,51 @@ body {
 .navbar_right_contend i {
   font-size: 16px;
   margin-left: 4px;
+}
+/* banner container style */
+.banner_container {
+  padding: 0px 180px;
+  margin-top: 120px;
+}
+/* modern container style */
+.modern_container {
+  padding: 20px 90px;
+  display: flex;
+  justify-content: space-between;
+}
+.modern_box {
+  background-color: #d5cfbf;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  padding-left: 20px;
+  width: 32%;
+  border-radius: 3px;
+}
+.modern_box2 {
+  background-color: #c4aea3;
+}
+.modern_box2 img {
+  position: relative;
+  top: -26px;
+}
+.modern_box3 {
+  background-color: #d2dde3;
+}
+.modern_box3 img {
+  position: relative;
+  top: 8px;
+}
+.modern_title {
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+.modern_name {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
 }
